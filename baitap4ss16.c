@@ -3,12 +3,12 @@ int main(){
 	FILE *filePointer;
 	int current;
 	char content[30];
-	filePointer = fopen("C:\\Users\\Admin\\Desktop\\BT03.txt","w");
+	filePointer = fopen("C:\\Users\\Trang\\Desktop\\BT03.txt","w");
 	if(filePointer == NULL){
 		printf("Khong the mo file:\n");
 		return 1;
 	}
-	filePointer = fopen("C:\\Users\\Admin\\Desktop\\BT03.txt","r");
+	filePointer = fopen("C:\\Users\\Trang\\Desktop\\BT03.txt","r");
 	if(filePointer == NULL){
 		printf("Khong the mo file:\n");
 		return 1;

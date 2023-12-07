@@ -2,7 +2,7 @@
 int main(){
 	FILE *taptin = NULL;
 	char array[100];
-	taptin = fopen("C:\\Users\\Admin\\Desktop\\BT01.txt","w");
+	taptin = fopen("C:\\Users\\Trang\\Desktop\\BT01.txt","w");
 	if(taptin != NULL){
 		printf("Nhap chuoi: ");
 		scanf("\n");
